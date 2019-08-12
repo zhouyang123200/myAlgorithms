@@ -1,11 +1,6 @@
-#! /usr/bin/python
-
-
 class Queue:
 
     def __init__(self):
-        self.head = 0
-        self.tail = 0
         self._queue = []
 
     @property
